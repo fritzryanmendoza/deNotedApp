@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #171123;
+}
+.noteappsvgcursorchanger svg:hover{
+    cursor: pointer;
+}
+
+.modal-header {
+    border-bottom:1px solid #171123;
+    background-color: #171123;
+    border-color: #171123;
+ }
+ .modal-content {
+    border-bottom:1px solid #171123;
+    background-color: #171123;
+    border-color: #171123;
+ }
+ .close {
+    color: #bb2205; 
+    opacity: 1;
+}
